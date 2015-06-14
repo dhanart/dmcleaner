@@ -7,8 +7,8 @@ body {
 .appbox {
   position: relative;
   width: 940px;
-  height: 792px;
-  margin: 196px auto 0;
+  margin: 68px auto 0;
+  padding-bottom: 30px;
   border-radius: 4px;
   background-color: #f5f9fc;
 }
@@ -68,19 +68,43 @@ body {
   background-color: rgb(249, 249, 249);
 }
 
+.list1 .container {
+  float: right;
+  width: 8.2024432809%;
+  height: 30px;
+  margin-top: 60px;
+  border: 1px solid rgb(217, 229, 238);
+  border-radius: 2px;
+}
+
 .list1 .element {
-  left: 3.2626427406%;
+  position: absolute;
+  top: 13px;
+  left: 19px;
   z-index: 32;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-size: 74px 319px;
   background-position: 0px 6px;
 }
 
+.list1 .text {
+  line-height: 1.38;
+}
+
 .list2 .element {
-  left: 3.3391109298%;
+  position: absolute;
+  top: 13px;
+  left: 20px;
   z-index: 27;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-size: 74px 319px;
   background-position: 0px -47px;
 }
 
-.list1 .container,
 .list2 .container,
 .list3 .container {
   float: right;
@@ -91,12 +115,17 @@ body {
 }
 
 .list3 .element {
-  left: 3.3391109298%;
+  position: absolute;
+  top: 13px;
+  left: 20px;
   z-index: 22;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-size: 74px 319px;
   background-position: 0px -97px;
 }
 
-.list1 .text,
 .list2 .text,
 .list3 .text {
   margin-top: 6px;
@@ -104,20 +133,38 @@ body {
 }
 
 .list4 .element {
-  left: 3.3391109298%;
+  position: absolute;
+  top: 13px;
+  left: 20px;
   z-index: 19;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-size: 74px 319px;
   background-position: 0px -149px;
 }
 
 .list5 .element {
-  left: 3.3391109298%;
+  position: absolute;
+  top: 13px;
+  left: 20px;
   z-index: 16;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-size: 74px 319px;
   background-position: 0px -201px;
 }
 
 .list6 .element {
-  left: 3.3391109298%;
+  position: absolute;
+  top: 13px;
+  left: 20px;
   z-index: 13;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-size: 74px 319px;
   background-position: 0px -250px;
 }
 
@@ -138,8 +185,14 @@ body {
 }
 
 .list7 .element {
-  left: 3.3391109298%;
+  position: absolute;
+  top: 13px;
+  left: 20px;
   z-index: 10;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-size: 74px 319px;
   background-position: 0px -300px;
 }
 
@@ -198,25 +251,35 @@ body {
 
 .warning {
   position: relative;
+  float: left;
+  clear: both;
+  z-index: 9;
   width: 100%;
-  margin: 30px auto 0;
+  margin-top: 30px;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 ._element {
-  position: absolute;
-  top: 13px;
-  width: 26px;
-  height: 30px;
-  background-image: url('../images/icons@2x.png');
   background-repeat: no-repeat;
-  background-size: 74px 319px;
 }
 
 .container-1 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 37;
   width: 615px;
-  margin: 30px auto 0;
+  margin-left: 17.28723%;
+}
+
+.element-9 {
+  width: 193px;
+  height: 24px;
+  margin: 502px auto 0;
+  background-image: url('../images/count%201.png');
+  background-size: 191px 21px;
+  background-position: left top;
 }
 
 .image-1 {
@@ -233,7 +296,21 @@ body {
   width: 31px;
 }
 
-.text-3,
+.text-3 {
+  float: left;
+  margin-top: 66px;
+  font-size: 1em;
+  color: rgb(103, 129, 149);
+}
+
+.text-4 {
+  margin: 6px auto 0;
+  font-size: 0.923em;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(196, 209, 219);
+}
+
 .text-5,
 .text-7 {
   float: left;
@@ -241,7 +318,6 @@ body {
   color: rgb(103, 129, 149);
 }
 
-.text-4,
 .text-6,
 .text-8 {
   margin: 0 auto;
@@ -256,8 +332,37 @@ body {
     width: 94%;
   }
 
+  .appbox .warning {
+    position: relative;
+    z-index: 9;
+  }
+
   .element .image {
     height: auto;
+  }
+
+  .list1 .element {
+    left: 20px;
+  }
+
+  .list4 .text {
+    position: relative;
+    z-index: 20;
+  }
+
+  .list5 .text {
+    position: relative;
+    z-index: 17;
+  }
+
+  .list6 .text {
+    position: relative;
+    z-index: 14;
+  }
+
+  .list7 .text {
+    position: relative;
+    z-index: 11;
   }
 
   .warn1 .image {
@@ -269,6 +374,27 @@ body {
     position: relative;
     z-index: 7;
   }
+
+  .appbox .container-1 {
+    position: relative;
+    z-index: 37;
+    margin-left: 18.0526899999%;
+  }
+
+  .list1 .text-3 {
+    position: relative;
+    z-index: 33;
+  }
+
+  .list2 .text-5 {
+    position: relative;
+    z-index: 28;
+  }
+
+  .list3 .text-7 {
+    position: relative;
+    z-index: 23;
+  }
 }
 
 @media(max-width: 768px) {
@@ -276,14 +402,43 @@ body {
     font-size: 0.813em;
   }
 
+  .appbox .warning {
+    position: relative;
+    z-index: 9;
+  }
+
   .element .image {
     height: auto;
   }
 
-  .list1 .container,
+  .list1 .container {
+    width: 53px;
+    margin-top: 62px;
+  }
+
   .list2 .container,
   .list3 .container {
     width: 53px;
+  }
+
+  .list4 .text {
+    position: relative;
+    z-index: 20;
+  }
+
+  .list5 .text {
+    position: relative;
+    z-index: 17;
+  }
+
+  .list6 .text {
+    position: relative;
+    z-index: 14;
+  }
+
+  .list7 .text {
+    position: relative;
+    z-index: 11;
   }
 
   .warn1 .image {
@@ -306,43 +461,39 @@ body {
   }
 
   .appbox .container-1 {
+    position: relative;
+    z-index: 37;
     width: 100%;
+    margin-left: 0;
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .appbox .element-9 {
+    margin-top: 494px;
+  }
+
+  .list1 .text-3 {
+    position: relative;
+    z-index: 33;
+    margin-top: 68px;
+  }
+
+  .list2 .text-5 {
+    position: relative;
+    z-index: 28;
+  }
+
+  .list3 .text-7 {
+    position: relative;
+    z-index: 23;
   }
 }
 
 @media(max-width: 480px) {
-  .element .image {
-    height: auto;
-  }
-
-  .warn1 .image {
-    visibility: hidden;
-    height: auto;
-  }
-
-  .warn1 .text {
+  .appbox .warning {
     position: relative;
-    z-index: 7;
-  }
-
-  .warning .warn1 {
-    padding-left: 20px;
-  }
-}
-
-@media(max-width: 320px) {
-  body {
-    font-size: 0.813em;
-  }
-
-  .appbox {
-    width: 100%;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    z-index: 9;
   }
 
   .container .list1,
@@ -351,7 +502,8 @@ body {
   .container .list4,
   .container .list5,
   .container .list6,
-  .container .list7 {
+  .container .list7,
+  .warning .warn1 {
     padding-left: 20px;
   }
 
@@ -359,15 +511,8 @@ body {
     height: auto;
   }
 
-  .element .image-1,
-  .element .text {
-    visibility: hidden;
-    left: 0;
-  }
-
-  .header .element {
-    width: 35px;
-    padding-left: 0;
+  .list1 .container {
+    margin-top: 77px;
   }
 
   .list4 .text {
@@ -398,6 +543,99 @@ body {
   .list7 .text {
     position: relative;
     z-index: 11;
+  }
+
+  .warn1 .image {
+    visibility: hidden;
+    height: auto;
+  }
+
+  .warn1 .text {
+    position: relative;
+    z-index: 7;
+  }
+
+  .appbox .container-1 {
+    position: relative;
+    z-index: 37;
+  }
+
+  .appbox .element-9 {
+    margin-top: 499px;
+  }
+
+  .list1 .text-3 {
+    position: relative;
+    z-index: 33;
+    margin-top: 83px;
+  }
+
+  .list2 .text-5 {
+    position: relative;
+    z-index: 28;
+  }
+
+  .list3 .text-7 {
+    position: relative;
+    z-index: 23;
+  }
+}
+
+@media(max-width: 320px) {
+  body {
+    font-size: 0.813em;
+  }
+
+  .appbox {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .appbox .warning {
+    position: relative;
+    z-index: 9;
+  }
+
+  .element .image {
+    height: auto;
+  }
+
+  .element .image-1,
+  .element .text {
+    visibility: hidden;
+    left: 0;
+  }
+
+  .header .element {
+    width: 35px;
+    padding-left: 0;
+  }
+
+  .list1 .container {
+    margin-top: 0;
+  }
+
+  .list4 .text {
+    position: relative;
+    z-index: 20;
+  }
+
+  .list5 .text {
+    position: relative;
+    z-index: 17;
+  }
+
+  .list6 .text {
+    position: relative;
+    z-index: 14;
+  }
+
+  .list7 .text {
+    position: relative;
+    z-index: 11;
     margin-left: 2.23871%;
   }
 
@@ -411,9 +649,24 @@ body {
     margin-top: 0;
   }
 
+  .appbox .container-1 {
+    position: relative;
+    z-index: 37;
+    margin-top: 136px;
+  }
+
+  .appbox .element-9 {
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 63px;
+  }
+
   .list1 .text-3 {
     position: relative;
     z-index: 33;
+    margin-top: 6px;
   }
 
   .list2 .text-5 {
