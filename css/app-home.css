@@ -8,7 +8,7 @@ body {
   position: relative;
   width: 940px;
   height: 792px;
-  margin: 63px auto 0;
+  margin: 30px auto 0;
   border-radius: 4px;
   background-color: #f5f9fc;
 }
@@ -27,14 +27,13 @@ body {
   background-position: 50% 14px;
 }
 
-.element {
+.element .text {
   position: absolute;
-  top: 13px;
-  width: 26px;
-  height: 30px;
-  background-image: url('../images/icons@2x.png');
-  background-repeat: no-repeat;
-  background-size: 74px 319px;
+  top: 6px;
+  left: 26.8456375838%;
+  z-index: 11;
+  font: 400 1.077em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
 }
 
 .header {
@@ -48,14 +47,19 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.header .image {
+.header .element {
+  position: relative;
   float: right;
-  width: 157px;
+  width: 149px;
+  height: 31px;
   margin-top: 17px;
+  padding-left: 40px;
+  overflow: hidden;
 }
 
 .image {
   display: block;
+  position: absolute;
   height: auto;
   overflow: hidden;
 }
@@ -80,13 +84,13 @@ body {
 
 .list1 .element {
   left: 3.2626427406%;
-  z-index: 38;
+  z-index: 41;
   background-position: 0px 6px;
 }
 
 .list2 .element {
   left: 3.3391109298%;
-  z-index: 33;
+  z-index: 36;
   background-position: 0px -47px;
 }
 
@@ -102,7 +106,7 @@ body {
 
 .list3 .element {
   left: 3.3391109298%;
-  z-index: 28;
+  z-index: 31;
   background-position: 0px -97px;
 }
 
@@ -115,19 +119,19 @@ body {
 
 .list4 .element {
   left: 3.3391109298%;
-  z-index: 25;
+  z-index: 28;
   background-position: 0px -149px;
 }
 
 .list5 .element {
   left: 3.3391109298%;
-  z-index: 22;
+  z-index: 25;
   background-position: 0px -201px;
 }
 
 .list6 .element {
   left: 3.3391109298%;
-  z-index: 19;
+  z-index: 22;
   background-position: 0px -250px;
 }
 
@@ -149,7 +153,7 @@ body {
 
 .list7 .element {
   left: 3.3391109298%;
-  z-index: 16;
+  z-index: 19;
   background-position: 0px -300px;
 }
 
@@ -216,10 +220,9 @@ body {
 }
 
 .warn1 .image {
-  position: absolute;
   top: 8px;
   left: 2.2271714922%;
-  z-index: 12;
+  z-index: 15;
   width: 54px;
 }
 
@@ -242,6 +245,16 @@ body {
   padding-left: 20px;
 }
 
+._element {
+  position: absolute;
+  top: 13px;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-repeat: no-repeat;
+  background-size: 74px 319px;
+}
+
 .nav ._text {
   position: absolute;
   top: 15px;
@@ -254,17 +267,31 @@ body {
   margin: 30px auto 0;
 }
 
-.text-2,
-.text-4,
-.text-6 {
-  float: left;
-  font-size: 1em;
-  color: rgb(103, 129, 149);
+.image-1 {
+  top: 13px;
+  left: 92.8691275167%;
+  z-index: 12;
+  width: 9px;
+}
+
+.image-2 {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 31px;
 }
 
 .text-3,
 .text-5,
 .text-7 {
+  float: left;
+  font-size: 1em;
+  color: rgb(103, 129, 149);
+}
+
+.text-4,
+.text-6,
+.text-8 {
   margin: 0 auto;
   font-size: 0.923em;
   font-weight: 400;
@@ -302,8 +329,13 @@ body {
     width: 94%;
   }
 
-  .header .image {
+  .element .image {
     height: auto;
+  }
+
+  .mainnav .mainlogo {
+    position: relative;
+    z-index: 0;
   }
 
   .mainnav .nav {
@@ -315,6 +347,11 @@ body {
     left: 2.1726215734%;
     height: auto;
   }
+
+  .warn1 .text {
+    position: relative;
+    z-index: 16;
+  }
 }
 
 @media(max-width: 768px) {
@@ -322,11 +359,7 @@ body {
     font-size: 0.813em;
   }
 
-  .appbox {
-    margin-top: 30px;
-  }
-
-  .header .image {
+  .element .image {
     height: auto;
   }
 
@@ -342,6 +375,11 @@ body {
     right: 30px;
   }
 
+  .mainnav .mainlogo {
+    position: relative;
+    z-index: 0;
+  }
+
   .mainnav .nav {
     visibility: hidden;
     position: relative;
@@ -355,6 +393,8 @@ body {
   }
 
   .warn1 .text {
+    position: relative;
+    z-index: 16;
     width: 100%;
     margin-top: 6px;
   }
@@ -372,68 +412,9 @@ body {
   }
 }
 
-@media(max-width: 375px) {
-  .appbox {
-    margin-top: 20px;
-  }
-
-  .appbox .header {
-    margin-top: 30px;
-  }
-
-  .container .list1,
-  .container .list2,
-  .container .list3,
-  .container .list4,
-  .container .list5,
-  .container .list6,
-  .container .list7,
-  .warning .warn1 {
-    padding-left: 20px;
-  }
-
-  .header .image {
+@media(max-width: 480px) {
+  .element .image {
     height: auto;
-  }
-
-  .list4 .text {
-    position: relative;
-    z-index: 26;
-  }
-
-  .list5 .text {
-    position: relative;
-    z-index: 23;
-  }
-
-  .list6 .text {
-    position: relative;
-    z-index: 20;
-  }
-
-  .list1 .element,
-  .list2 .element,
-  .list3 .element,
-  .list4 .element,
-  .list5 .element,
-  .list6 .element,
-  .list7 .element {
-    visibility: hidden;
-  }
-
-  .list7 .text {
-    position: relative;
-    z-index: 17;
-    margin-left: 2.247%;
-  }
-
-  .mainnav {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .mainnav .burgermenu {
-    right: 20px;
   }
 
   .mainnav .mainlogo {
@@ -454,22 +435,124 @@ body {
 
   .warn1 .text {
     position: relative;
-    z-index: 13;
+    z-index: 16;
+  }
+
+  .warning .warn1 {
+    padding-left: 20px;
+  }
+}
+
+@media(max-width: 320px) {
+  body {
+    font-size: 0.813em;
+  }
+
+  .appbox {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .container .list1,
+  .container .list2,
+  .container .list3,
+  .container .list4,
+  .container .list5,
+  .container .list6,
+  .container .list7 {
+    padding-left: 20px;
+  }
+
+  .element .image {
+    height: auto;
+  }
+
+  .element .image-1,
+  .element .text {
+    visibility: hidden;
+    left: 0;
+  }
+
+  .header .element {
+    width: 35px;
+    padding-left: 0;
+  }
+
+  .list4 .text {
+    position: relative;
+    z-index: 29;
+  }
+
+  .list5 .text {
+    position: relative;
+    z-index: 26;
+  }
+
+  .list6 .text {
+    position: relative;
+    z-index: 23;
+  }
+
+  .list1 .element,
+  .list2 .element,
+  .list3 .element,
+  .list4 .element,
+  .list5 .element,
+  .list6 .element,
+  .list7 .element {
+    visibility: hidden;
+  }
+
+  .list7 .text {
+    position: relative;
+    z-index: 20;
+    margin-left: 2.23871%;
+  }
+
+  .mainnav {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .mainnav .burgermenu {
+    right: 20px;
+  }
+
+  .mainnav .mainlogo {
+    position: relative;
+    z-index: 0;
+  }
+
+  .mainnav .nav {
+    position: relative;
+    z-index: 6;
+  }
+
+  .warn1 .image {
+    height: auto;
+  }
+
+  .warn1 .text {
+    position: relative;
+    z-index: 16;
     margin-top: 0;
   }
 
-  .list1 .text-2 {
+  .list1 .text-3 {
     position: relative;
-    z-index: 39;
+    z-index: 42;
   }
 
-  .list2 .text-4 {
+  .list2 .text-5 {
     position: relative;
-    z-index: 34;
+    z-index: 37;
   }
 
-  .list3 .text-6 {
+  .list3 .text-7 {
     position: relative;
-    z-index: 29;
+    z-index: 32;
   }
 }
