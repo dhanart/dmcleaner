@@ -4,6 +4,15 @@ body {
   color: rgb(103, 129, 149);
 }
 
+.appbox {
+  position: relative;
+  width: 940px;
+  height: 792px;
+  margin: 196px auto 0;
+  border-radius: 4px;
+  background-color: #f5f9fc;
+}
+
 .element {
   position: absolute;
   top: 13px;
@@ -193,15 +202,6 @@ body {
 }
 
 .container-1 {
-  position: relative;
-  width: 940px;
-  height: 792px;
-  margin: 196px auto 0;
-  border-radius: 4px;
-  background-color: #f5f9fc;
-}
-
-.container-2 {
   width: 615px;
   margin: 30px auto 0;
 }
@@ -225,6 +225,10 @@ body {
 }
 
 @media(max-width: 1024px) {
+  .appbox {
+    width: 94%;
+  }
+
   .header .image {
     height: auto;
   }
@@ -232,10 +236,6 @@ body {
   .warn1 .image {
     left: 2.1726215734%;
     height: auto;
-  }
-
-  .container-1 {
-    width: 94%;
   }
 }
 
@@ -271,7 +271,7 @@ body {
     padding-bottom: 10px;
   }
 
-  .container .container-2 {
+  .appbox .container-1 {
     width: 100%;
     padding-right: 20px;
     padding-left: 20px;
@@ -294,6 +294,21 @@ body {
     height: auto;
   }
 
+  .list4 .text {
+    position: relative;
+    z-index: 17;
+  }
+
+  .list5 .text {
+    position: relative;
+    z-index: 14;
+  }
+
+  .list6 .text {
+    position: relative;
+    z-index: 11;
+  }
+
   .list1 .element,
   .list2 .element,
   .list3 .element,
@@ -305,7 +320,9 @@ body {
   }
 
   .list7 .text {
-    margin-left: 2.25277%;
+    position: relative;
+    z-index: 8;
+    margin-left: 2.247%;
   }
 
   .warn1 .image {
@@ -317,5 +334,20 @@ body {
     position: relative;
     z-index: 4;
     margin-top: 0;
+  }
+
+  .list1 .text-2 {
+    position: relative;
+    z-index: 30;
+  }
+
+  .list2 .text-4 {
+    position: relative;
+    z-index: 25;
+  }
+
+  .list3 .text-6 {
+    position: relative;
+    z-index: 20;
   }
 }
