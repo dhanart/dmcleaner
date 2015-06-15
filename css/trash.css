@@ -1,16 +1,7 @@
 body {
-  background-color: rgb(47, 47, 47);
+  background-color: rgb(255, 255, 255);
   font: 400 0.813em/1.38 Lato;
   color: rgb(103, 129, 149);
-}
-
-.appbox {
-  position: relative;
-  width: 940px;
-  margin: 68px auto 0;
-  padding-bottom: 30px;
-  border-radius: 4px;
-  background-color: #f5f9fc;
 }
 
 .container {
@@ -30,39 +21,22 @@ body {
   color: rgb(196, 209, 219);
 }
 
-.element .text {
+.element {
   position: absolute;
-  top: 6px;
-  left: 26.8456375838%;
-  z-index: 34;
-  font: 400 1.077em/1.38 Helvetica;
-  color: rgb(0, 0, 0);
-}
-
-.header {
-  float: left;
-  width: 100%;
-  height: 64px;
-  padding-right: 20px;
-  padding-left: 20px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  background-color: rgb(255, 255, 255);
-}
-
-.header .element {
-  position: relative;
-  float: right;
-  width: 149px;
-  height: 31px;
-  margin-top: 17px;
-  padding-left: 40px;
-  overflow: hidden;
+  top: 13px;
+  width: 26px;
+  height: 30px;
+  background-image: url('../images/icons@2x.png');
+  background-repeat: no-repeat;
+  background-size: 74px 319px;
 }
 
 .image {
   display: block;
   position: absolute;
+  top: 8px;
+  left: 2.2271714922%;
+  width: 54px;
   height: auto;
   overflow: hidden;
 }
@@ -87,37 +61,37 @@ body {
 
 .list1 .element {
   left: 19px;
-  z-index: 22;
+  z-index: 26;
   background-position: 0px 6px;
 }
 
 .list2 .element {
   left: 20px;
-  z-index: 17;
+  z-index: 21;
   background-position: 0px -47px;
 }
 
 .list3 .element {
   left: 20px;
-  z-index: 12;
+  z-index: 16;
   background-position: 0px -97px;
 }
 
 .list4 .element {
   left: 20px;
-  z-index: 9;
+  z-index: 13;
   background-position: 0px -149px;
 }
 
 .list5 .element {
   left: 20px;
-  z-index: 6;
+  z-index: 10;
   background-position: 0px -201px;
 }
 
 .list6 .element {
   left: 20px;
-  z-index: 3;
+  z-index: 7;
   background-position: 0px -250px;
 }
 
@@ -139,6 +113,7 @@ body {
 
 .list7 .element {
   left: 20px;
+  z-index: 4;
   background-position: 0px -300px;
 }
 
@@ -146,9 +121,9 @@ body {
 .list5 .text,
 .list6 .text,
 .list7 .text,
-.text-3,
-.text-5,
-.text-7 {
+.text-2,
+.text-4,
+.text-6 {
   float: left;
   margin-top: 6px;
   font-size: 1em;
@@ -157,21 +132,18 @@ body {
 }
 
 .optionapp {
-  float: left;
-  clear: both;
   width: 615px;
-  margin: 30px 0 0 17.28391%;
+  margin: 33px auto 0;
 }
 
-.sublogo {
-  float: left;
-  width: 117px;
-  height: 44px;
-  margin-top: 10px;
-  background-image: url('../images/icon2@2x.png');
+.share {
+  width: 193px;
+  height: 24px;
+  margin: 108px auto 0;
+  background-image: url('../images/count%201.png');
   background-repeat: no-repeat;
-  background-size: 110px 455px;
-  background-position: 50% -229px;
+  background-size: 191px 21px;
+  background-position: left top;
 }
 
 .warn1 {
@@ -187,13 +159,6 @@ body {
   box-shadow: 2px 0 0 rgba(0, 0, 0, 0.05) inset;
 }
 
-.warn1 .image {
-  top: 8px;
-  left: 2.2271714922%;
-  z-index: 28;
-  width: 54px;
-}
-
 .warn1 .text {
   float: left;
   width: 85.966981132%;
@@ -207,67 +172,15 @@ body {
 
 .warning {
   position: relative;
-  float: left;
-  clear: both;
-  width: 100%;
-  margin-top: 30px;
+  width: 78.3333333333%;
+  margin: 30px auto 0;
   padding-right: 20px;
   padding-left: 20px;
 }
 
-._element {
-  position: absolute;
-  top: 13px;
-  width: 26px;
-  height: 30px;
-  background-image: url('../images/icons@2x.png');
-  background-repeat: no-repeat;
-  background-size: 74px 319px;
-}
-
-.image-1 {
-  top: 13px;
-  left: 92.8691275167%;
-  z-index: 35;
-  width: 9px;
-}
-
-.image-2 {
-  top: 0;
-  left: 0;
-  z-index: 33;
-  width: 31px;
-}
-
 @media(max-width: 1024px) {
-  .appbox {
-    width: 94%;
-  }
-
-  .appbox .header {
-    float: none;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .appbox .optionapp {
-    float: none;
-    clear: none;
-    margin-top: 140px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .element .image {
-    height: auto;
-  }
-
-  .header .element {
-    margin-top: 16px;
-  }
-
-  .header .sublogo {
-    margin-top: 9px;
+  .list1 .container {
+    margin-top: 60px;
   }
 
   .list1 .element {
@@ -276,22 +189,41 @@ body {
 
   .list4 .text {
     position: relative;
-    z-index: 10;
+    z-index: 14;
   }
 
   .list5 .text {
     position: relative;
-    z-index: 7;
+    z-index: 11;
   }
 
   .list6 .text {
     position: relative;
-    z-index: 4;
+    z-index: 8;
   }
 
   .list7 .text {
     position: relative;
-    z-index: 1;
+    z-index: 5;
+  }
+
+  .optionapp {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 31;
+    margin-top: -2704px;
+    margin-right: 0;
+    margin-left: 30.12543%;
+  }
+
+  .share {
+    position: relative;
+    float: left;
+    z-index: 32;
+    margin-top: -2254px;
+    margin-right: 0;
+    margin-left: 51.70746%;
   }
 
   .warn1 .image {
@@ -301,22 +233,36 @@ body {
 
   .warn1 .text {
     position: relative;
-    z-index: 29;
+    z-index: 1;
   }
 
-  .list1 .text-3 {
+  .warning {
     position: relative;
-    z-index: 23;
+    float: left;
+    z-index: 3;
+    margin-top: 317px;
+    margin-right: 0;
+    margin-left: 10.83374%;
   }
 
-  .list2 .text-5 {
-    position: relative;
-    z-index: 18;
+  .warning .warn1 {
+    margin-top: 2510px;
   }
 
-  .list3 .text-7 {
+  .list1 .text-2 {
     position: relative;
-    z-index: 13;
+    z-index: 27;
+    margin-top: 66px;
+  }
+
+  .list2 .text-4 {
+    position: relative;
+    z-index: 22;
+  }
+
+  .list3 .text-6 {
+    position: relative;
+    z-index: 17;
   }
 }
 
@@ -325,29 +271,11 @@ body {
     font-size: 0.813em;
   }
 
-  .appbox .optionapp {
-    float: left;
-    clear: both;
-    width: 100%;
-    margin-top: 106px;
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 20px;
-    padding-left: 20px;
+  .list1 .container {
+    width: 53px;
+    margin-top: 62px;
   }
 
-  .appbox .warning {
-    float: none;
-    clear: none;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .element .image {
-    height: auto;
-  }
-
-  .list1 .container,
   .list2 .container,
   .list3 .container {
     width: 53px;
@@ -355,22 +283,39 @@ body {
 
   .list4 .text {
     position: relative;
-    z-index: 10;
+    z-index: 14;
   }
 
   .list5 .text {
     position: relative;
-    z-index: 7;
+    z-index: 11;
   }
 
   .list6 .text {
     position: relative;
-    z-index: 4;
+    z-index: 8;
   }
 
   .list7 .text {
     position: relative;
-    z-index: 1;
+    z-index: 5;
+  }
+
+  .optionapp {
+    position: relative;
+    z-index: 31;
+    width: 100%;
+    margin-top: -2749px;
+    margin-left: 40.16927%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .share {
+    position: relative;
+    z-index: 32;
+    margin-top: -2299px;
+    margin-left: 68.94531%;
   }
 
   .warn1 .image {
@@ -381,66 +326,58 @@ body {
 
   .warn1 .text {
     position: relative;
-    z-index: 29;
+    z-index: 1;
     width: 100%;
     margin-top: 6px;
   }
 
+  .warning {
+    position: relative;
+    z-index: 3;
+  }
+
   .warning .warn1 {
     height: auto;
+    margin-top: 2538px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  .list1 .text-3 {
+  .list1 .text-2 {
     position: relative;
-    z-index: 23;
+    z-index: 27;
+    margin-top: 68px;
   }
 
-  .list2 .text-5 {
+  .list2 .text-4 {
     position: relative;
-    z-index: 18;
+    z-index: 22;
   }
 
-  .list3 .text-7 {
+  .list3 .text-6 {
     position: relative;
-    z-index: 13;
+    z-index: 17;
   }
 }
 
 @media(max-width: 480px) {
-  .appbox .optionapp {
-    float: none;
-    clear: none;
-    margin-top: 151px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .appbox .warning {
-    float: left;
-    clear: both;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .element .image {
-    height: auto;
+  .list1 .container {
+    margin-top: 77px;
   }
 
   .list4 .text {
     position: relative;
-    z-index: 10;
+    z-index: 14;
   }
 
   .list5 .text {
     position: relative;
-    z-index: 7;
+    z-index: 11;
   }
 
   .list6 .text {
     position: relative;
-    z-index: 4;
+    z-index: 8;
   }
 
   .list1 .element,
@@ -455,7 +392,14 @@ body {
 
   .list7 .text {
     position: relative;
-    z-index: 1;
+    z-index: 5;
+  }
+
+  .optionapp {
+    position: relative;
+    z-index: 31;
+    margin-top: -2835px;
+    margin-left: 64.26758%;
   }
 
   .optionapp .list1,
@@ -464,9 +408,16 @@ body {
   .optionapp .list4,
   .optionapp .list5,
   .optionapp .list6,
-  .optionapp .list7,
-  .warning .warn1 {
+  .optionapp .list7 {
     padding-left: 20px;
+  }
+
+  .share {
+    position: relative;
+    clear: both;
+    z-index: 32;
+    margin-top: -2385px;
+    margin-left: 110.3125%;
   }
 
   .warn1 .image {
@@ -476,22 +427,34 @@ body {
 
   .warn1 .text {
     position: relative;
-    z-index: 29;
+    z-index: 1;
   }
 
-  .list1 .text-3 {
+  .warning {
     position: relative;
-    z-index: 23;
+    z-index: 3;
+    margin-left: 10.83008%;
   }
 
-  .list2 .text-5 {
-    position: relative;
-    z-index: 18;
+  .warning .warn1 {
+    margin-top: 2603px;
+    padding-left: 20px;
   }
 
-  .list3 .text-7 {
+  .list1 .text-2 {
     position: relative;
-    z-index: 13;
+    z-index: 27;
+    margin-top: 83px;
+  }
+
+  .list2 .text-4 {
+    position: relative;
+    z-index: 22;
+  }
+
+  .list3 .text-6 {
+    position: relative;
+    z-index: 17;
   }
 }
 
@@ -500,52 +463,43 @@ body {
     font-size: 0.813em;
   }
 
-  .appbox {
-    width: 100%;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-
-  .appbox .optionapp {
-    margin-top: 166px;
-  }
-
-  .element .image {
-    height: auto;
-  }
-
-  .element .image-1,
-  .element .text {
-    visibility: hidden;
-    left: 0;
-  }
-
-  .header .element {
-    width: 35px;
-    padding-left: 0;
+  .list1 .container {
+    margin-top: 0;
   }
 
   .list4 .text {
     position: relative;
-    z-index: 10;
+    z-index: 14;
   }
 
   .list5 .text {
     position: relative;
-    z-index: 7;
+    z-index: 11;
   }
 
   .list6 .text {
     position: relative;
-    z-index: 4;
+    z-index: 8;
   }
 
   .list7 .text {
     position: relative;
-    z-index: 1;
+    z-index: 5;
     margin-left: 2.23871%;
+  }
+
+  .optionapp {
+    position: relative;
+    z-index: 31;
+    margin-top: -3705px;
+    margin-left: 96.40625%;
+  }
+
+  .share {
+    position: relative;
+    z-index: 32;
+    margin-top: -3255px;
+    margin-left: 529px;
   }
 
   .warn1 .image {
@@ -554,22 +508,32 @@ body {
 
   .warn1 .text {
     position: relative;
-    z-index: 29;
+    z-index: 1;
     margin-top: 0;
   }
 
-  .list1 .text-3 {
+  .warning {
     position: relative;
-    z-index: 23;
+    z-index: 3;
   }
 
-  .list2 .text-5 {
-    position: relative;
-    z-index: 18;
+  .warning .warn1 {
+    margin-top: 3437px;
   }
 
-  .list3 .text-7 {
+  .list1 .text-2 {
     position: relative;
-    z-index: 13;
+    z-index: 27;
+    margin-top: 6px;
+  }
+
+  .list2 .text-4 {
+    position: relative;
+    z-index: 22;
+  }
+
+  .list3 .text-6 {
+    position: relative;
+    z-index: 17;
   }
 }
