@@ -1,0 +1,654 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#topsection {
+    float: none;
+    height: 592px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-image:url("img/bg-hero.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    padding: 30px 30px 0px;
+    margin-right: auto;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#header {
+    float: none;
+    height: 50px;
+    margin: 0px auto;
+    clear: none;
+    width: 1140px;
+    position: relative;
+}
+
+#midsection {
+    float: none;
+    height: 213px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(232, 236, 240);
+    margin-right: auto;
+    padding: 0px 30px 30px;
+}
+
+#footer {
+    float: left;
+    height: 207px;
+    margin: 0px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(53, 62, 72);
+}
+
+#image {
+    float: left;
+    width: 116px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 7px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#text1 {
+    float: right;
+    font-size: 0.8em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 19px 15px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+}
+
+#box {
+    float: right;
+    height: 50px;
+    margin: 0px 0% 0px 0px;
+    clear: right;
+    width: 313px;
+}
+
+#text2 {
+    float: right;
+    font-size: 0.8em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 19px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    margin-right: 15px;
+}
+
+#text3 {
+    float: right;
+    font-size: 0.8em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 19px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    margin-right: 15px;
+}
+
+#text4 {
+    float: right;
+    font-size: 0.8em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0px;
+    margin-top: 19px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    margin-right: 15px;
+}
+
+#text {
+    float: right;
+    font-size: 0.8em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 19px 15px 0px 0px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+}
+
+#image2 {
+    float: none;
+    width: 311px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: auto;
+}
+
+#box1 {
+    float: none;
+    height: auto;
+    margin: -252px auto 0px;
+    clear: none;
+    width: 940px;
+    background-color: rgb(255, 255, 255);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+#text5 {
+    float: none;
+    font-size: 1.3em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 59px;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    font-style: normal;
+    font-family: Gotham;
+    color: rgb(53, 62, 72);
+}
+
+#text6 {
+    float: none;
+    font-size: 0.9em;
+    width: 79.112576%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin-left: auto;
+    margin-top: 27px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(123, 123, 123);
+    font-family: 'Gotham Rounded';
+    margin-right: auto;
+}
+
+#input {
+    float: none;
+    height: 51px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-top: 19px;
+    clear: none;
+    width: 238.4px;
+    margin-right: auto;
+    background-color: rgb(0, 203, 234);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    -webkit-box-shadow: rgb(0, 196, 226) 0px 2px 0px 0px;
+    box-shadow: rgb(0, 196, 226) 0px 2px 0px 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+#text7 {
+    float: none;
+    font-size: 0.9em;
+    width: 78.667407%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin-left: auto;
+    margin-top: 36px;
+    clear: none;
+    min-height: 0px;
+    font-family: 'Gotham Rounded';
+    color: rgb(123, 123, 123);
+    margin-right: auto;
+}
+
+#image1 {
+    float: right;
+    width: 22px;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    #box {
+        clear: none;
+    }
+
+    #text1 {
+        clear: none;
+    }
+
+    #text2 {
+        margin-top: 19px;
+        clear: none;
+    }
+
+    #text3 {
+        margin-top: 19px;
+        clear: none;
+    }
+
+    #text4 {
+        margin-top: 19px;
+        clear: none;
+    }
+
+    #text {
+        clear: none;
+    }
+
+    #header {
+        clear: none;
+        width: 1140px;
+    }
+
+    #image2 {
+        float: none;
+        width: 311px;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-top: 0px;
+        clear: none;
+        color: rgb(0, 0, 0);
+        margin-right: auto;
+    }
+
+    #box1 {
+        float: none;
+        clear: none;
+        background-color: rgb(255, 255, 255);
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 40px;
+    }
+
+    #midsection {
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #footer {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+    }
+
+    #topsection {
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #text5 {
+        float: none;
+        font-size: 1.3em;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: 500;
+        line-height: 1em;
+        margin-left: auto;
+        margin-top: 59px;
+        clear: none;
+        min-height: 0px;
+        margin-right: auto;
+        font-style: normal;
+        font-family: Gotham;
+        color: rgb(53, 62, 72);
+    }
+
+    #text6 {
+        float: none;
+        font-size: 0.9em;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1.6em;
+        margin-left: auto;
+        margin-top: 27px;
+        clear: none;
+        min-height: 0px;
+        margin-right: auto;
+        color: rgb(123, 123, 123);
+        font-family: 'Gotham Rounded';
+        padding-right: 88px;
+        padding-left: 88px;
+    }
+
+    #input {
+        float: none;
+        height: 51px;
+        font-size: 1em;
+        margin-left: auto;
+        margin-top: 19px;
+        clear: none;
+        margin-right: auto;
+        background-color: rgb(0, 203, 234);
+        color: rgb(255, 255, 255);
+        border-style: none;
+        -webkit-box-shadow: rgb(0, 196, 226) 0px 2px 0px 0px;
+        box-shadow: rgb(0, 196, 226) 0px 2px 0px 0px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    #text7 {
+        float: none;
+        font-size: 0.9em;
+        width: 78.667407%;
+        height: auto;
+        text-align: center;
+        font-weight: normal;
+        line-height: 1.6em;
+        margin-left: auto;
+        margin-top: 36px;
+        clear: none;
+        min-height: 0px;
+        font-family: 'Gotham Rounded';
+        color: rgb(123, 123, 123);
+        margin-right: auto;
+    }
+
+    #image1 {
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #topsection {
+        height: 592px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #header {
+        height: 50px;
+        margin-top: 0px;
+        clear: none;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    #image {
+        float: left;
+        width: 116px;
+        max-width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-top: 7px;
+        clear: none;
+        color: rgb(0, 0, 0);
+    }
+
+    #text1 {
+        font-size: 0.8em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        clear: none;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+        font-family: helvetica;
+    }
+
+    #box {
+        clear: none;
+    }
+
+    #text2 {
+        font-size: 0.8em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-top: 19px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+        font-family: helvetica;
+    }
+
+    #midsection {
+        margin-top: 0px;
+        clear: both;
+    }
+
+    #footer {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: both;
+    }
+
+    #text3 {
+        font-size: 0.8em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-top: 19px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+        font-family: helvetica;
+    }
+
+    #text4 {
+        font-size: 0.8em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        margin-top: 19px;
+        clear: none;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+        font-family: helvetica;
+    }
+
+    #text {
+        float: right;
+        font-size: 0.8em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1em;
+        clear: none;
+        min-height: 0px;
+        color: rgb(255, 255, 255);
+        font-family: helvetica;
+    }
+
+    #text6 {
+        margin-top: 23px;
+        clear: none;
+    }
+
+    #text5 {
+        margin-top: 65px;
+        margin-left: 0.06709363%;
+        clear: none;
+    }
+
+    #input {
+        margin-top: 24px;
+        clear: none;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #box1 {
+        width: 97.510373%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #midsection {
+        height: 319px;
+        margin-top: 0px;
+        clear: both;
+        width: 100%;
+        background-color: rgb(232, 236, 240);
+        margin-bottom: 0px;
+    }
+
+    #footer {
+        float: left;
+        height: 319px;
+        margin: 0px;
+        clear: both;
+        width: 100%;
+        background-color: rgb(53, 62, 72);
+    }
+
+    #box1 {
+        clear: none;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    #box {
+        display: none;
+    }
+
+    #text6 {
+        padding: 0px;
+    }
+
+    #text7 {
+        height: auto;
+        margin-top: 36px;
+        margin-left: auto;
+        clear: none;
+        width: 89.335029%;
+        margin-right: auto;
+    }
+
+    #text5 {
+        line-height: 1.4em;
+    }
+
+    #image1 {
+        position: static;
+        top: 0px;
+        left: 0px;
+        display: block;
+        margin-right: 0%;
+        margin-top: 16px;
+        clear: none;
+    }
+
+    #image2 {
+        margin-top: 31.5625px;
+        margin-left: auto;
+        clear: none;
+        height: auto;
+        width: 273.234375px;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #image2 {
+        margin-top: 30px;
+        clear: none;
+        margin-left: auto;
+        height: auto;
+        width: 172.59375px;
+        margin-right: auto;
+        max-width: 260px;
+    }
+
+    #midsection {
+        margin-top: 0px;
+        clear: none;
+        height: 336px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #topsection {
+        margin-left: auto;
+        margin-right: auto;
+        height: 506px;
+    }
+
+    #text5 {
+        margin-top: 30px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #text6 {
+        margin-top: 23px;
+        clear: none;
+    }
+}
+
